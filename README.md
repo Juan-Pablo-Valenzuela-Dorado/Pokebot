@@ -1,2 +1,4 @@
 # Pokebot
-Just for fun
+Instrucciones:
+1. Genera IVs, EVs y Marks (como atrapar un pokemón nuevo)
+2. Genera el pokemón
