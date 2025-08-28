@@ -1,0 +1,2 @@
+# Pokebot
+Just for fun
