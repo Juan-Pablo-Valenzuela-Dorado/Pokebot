@@ -1,4 +1,5 @@
 import random
+from counterFile import get_new_id
 class Pokemon:
 
     Natures = {
@@ -39,16 +40,16 @@ class Pokemon:
     }
     #395 es empoleon y el 1713 está inventado jajaja
 
-    def __init__(self, name, level, id, nature, marksOwned, isShiny, friendLevel, EVs, IVs):
+    def __init__(self, id, name = None, level = 1, marksOwned = None, friendLevel = 50):
         self.name = name
         self.level = level
         self.id = id
-        self.nature = nature
+        self.nature = random.choice(list(Natures.keys()))
         self.marksOwned = marksOwned
-        self.isShiny = isShiny
+        self.isShiny = genShiny()
         self.friendLevel = friendLevel
-        self.EVs = EVs
-        self.IVs = IVs
+        self.EVs = EVs()
+        self.IVs = IVs()
         self.hp = self.checkStat(id, level, "hp")
         self.att = self.checkStat(id, level, "att")
         self.defe = self.checkStat(id, level, "defe")
@@ -58,7 +59,12 @@ class Pokemon:
         self.ability = Pokemon.BaseStats[id][1][random.randint(0,1)]
         self.stats = self.checkStats(id,level)
     def bathe(self):
-        self.friendLevel += 10
+        self.friendLevel += 10 
+    def genShiny():
+        if random.randint(1,4096) == 4096:
+            return True
+        else:
+            return False
     def changeNature(self, nature):
         self.nature = nature
     def EVTrain(self, EV, band):
@@ -179,18 +185,23 @@ class Marks:
         self.champion = champion
         self.gourmet = gourmet
         self.friend = friend
-
         self.small = small
 
 class Trainer:
     def __init__(self):
-        self.slot1 = 
+        self.UID = get_new_id()
+        self.slot1 = genRandomStarter()
         self.slot2 = False
         self.slot3 = False
         self.slot4 = False
         self.slot5 = False
         self.slot6 = False
         self.box = False
+    def genRandomStarter():
+        return Pokemon(1 + random.randint(0,2)*3)
+            
+            
     
-    def equipPokemon(slot, pokemon):
-        
+    def equipPokemon(self, slot, pokemon):
+        return None
+
