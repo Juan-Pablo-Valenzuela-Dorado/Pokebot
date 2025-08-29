@@ -30,8 +30,11 @@ class Pokemon:
     }
     
     BaseStats = {
-    "395": [(84, 86, 88, 111, 101, 60), ["Torrent", "Defiant"], ["Water", "Steel"]],
-    "1713": [(66, 75, 90, 120, 85, 105), ["Sniper", "Guts"] ,["Grass","Fire"]]
+    "1": [(45, 49, 49, 65, 65, 45), ["Overgrow", "Chlorophyll"], ["Grass","Poison"], ["Bulbasaur"],
+    "4": [(39, 52, 43, 60, 50, 65), ["Blaze","Solar Power"], ["Fire"], ["Charmander"]],
+    "7": [(44, 48, 65, 50, 64, 43), ["Torrent", "Rain Dish"], ["Water"], ["Squirtle"]],
+    "395": [(84, 86, 88, 111, 101, 60), ["Torrent", "Defiant"], ["Water", "Steel"], ["Empoleon"]],
+    "1713": [(66, 75, 90, 120, 85, 105), ["Sniper", "Guts"] ,["Grass","Fire"], ["Chuyinator"]]
 
     }
     #395 es empoleon y el 1713 está inventado jajaja
@@ -176,4 +179,18 @@ class Marks:
         self.champion = champion
         self.gourmet = gourmet
         self.friend = friend
+
         self.small = small
+
+class Trainer:
+    def __init__(self):
+        self.slot1 = 
+        self.slot2 = False
+        self.slot3 = False
+        self.slot4 = False
+        self.slot5 = False
+        self.slot6 = False
+        self.box = False
+    
+    def equipPokemon(slot, pokemon):
+        
