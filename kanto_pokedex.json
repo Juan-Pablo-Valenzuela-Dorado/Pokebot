@@ -1,0 +1,3031 @@
+{
+    "0001": {
+        "name": "Bulbasaur",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            "Overgrow",
+            "Chlorophyll"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "att": 49,
+            "defe": 49,
+            "spatt": 65,
+            "spdef": 65,
+            "spe": 45
+        },
+        "url": "https://pokemondb.net/pokedex/1"
+    },
+    "0002": {
+        "name": "Ivysaur",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            "Overgrow",
+            "Chlorophyll"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 62,
+            "defe": 63,
+            "spatt": 80,
+            "spdef": 80,
+            "spe": 60
+        },
+        "url": "https://pokemondb.net/pokedex/2"
+    },
+    "0003": {
+        "name": "Venusaur",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            "Overgrow",
+            "Chlorophyll"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "att": 82,
+            "defe": 83,
+            "spatt": 100,
+            "spdef": 100,
+            "spe": 80
+        },
+        "url": "https://pokemondb.net/pokedex/3"
+    },
+    "0004": {
+        "name": "Charmander",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            "Blaze",
+            "Solar Power"
+        ],
+        "base_stats": {
+            "hp": 39,
+            "att": 52,
+            "defe": 43,
+            "spatt": 60,
+            "spdef": 50,
+            "spe": 65
+        },
+        "url": "https://pokemondb.net/pokedex/4"
+    },
+    "0005": {
+        "name": "Charmeleon",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            "Blaze",
+            "Solar Power"
+        ],
+        "base_stats": {
+            "hp": 58,
+            "att": 64,
+            "defe": 58,
+            "spatt": 80,
+            "spdef": 65,
+            "spe": 80
+        },
+        "url": "https://pokemondb.net/pokedex/5"
+    },
+    "0006": {
+        "name": "Charizard",
+        "types": [
+            "Fire",
+            "Flying"
+        ],
+        "abilities": [
+            "Blaze",
+            "Solar Power"
+        ],
+        "base_stats": {
+            "hp": 78,
+            "att": 84,
+            "defe": 78,
+            "spatt": 109,
+            "spdef": 85,
+            "spe": 100
+        },
+        "url": "https://pokemondb.net/pokedex/6"
+    },
+    "0007": {
+        "name": "Squirtle",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Torrent",
+            "Rain Dish"
+        ],
+        "base_stats": {
+            "hp": 44,
+            "att": 48,
+            "defe": 65,
+            "spatt": 50,
+            "spdef": 64,
+            "spe": 43
+        },
+        "url": "https://pokemondb.net/pokedex/7"
+    },
+    "0008": {
+        "name": "Wartortle",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Torrent",
+            "Rain Dish"
+        ],
+        "base_stats": {
+            "hp": 59,
+            "att": 63,
+            "defe": 80,
+            "spatt": 65,
+            "spdef": 80,
+            "spe": 58
+        },
+        "url": "https://pokemondb.net/pokedex/8"
+    },
+    "0009": {
+        "name": "Blastoise",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Torrent",
+            "Rain Dish"
+        ],
+        "base_stats": {
+            "hp": 79,
+            "att": 83,
+            "defe": 100,
+            "spatt": 85,
+            "spdef": 105,
+            "spe": 78
+        },
+        "url": "https://pokemondb.net/pokedex/9"
+    },
+    "0010": {
+        "name": "Caterpie",
+        "types": [
+            "Bug"
+        ],
+        "abilities": [
+            "Shield Dust",
+            "Run Away"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "att": 30,
+            "defe": 35,
+            "spatt": 20,
+            "spdef": 20,
+            "spe": 45
+        },
+        "url": "https://pokemondb.net/pokedex/10"
+    },
+    "0011": {
+        "name": "Metapod",
+        "types": [
+            "Bug"
+        ],
+        "abilities": [
+            "Shed Skin"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "att": 20,
+            "defe": 55,
+            "spatt": 25,
+            "spdef": 25,
+            "spe": 30
+        },
+        "url": "https://pokemondb.net/pokedex/11"
+    },
+    "0012": {
+        "name": "Butterfree",
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "abilities": [
+            "Compound Eyes",
+            "Tinted Lens"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 45,
+            "defe": 50,
+            "spatt": 90,
+            "spdef": 80,
+            "spe": 70
+        },
+        "url": "https://pokemondb.net/pokedex/12"
+    },
+    "0013": {
+        "name": "Weedle",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "abilities": [
+            "Shield Dust",
+            "Run Away"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "att": 35,
+            "defe": 30,
+            "spatt": 20,
+            "spdef": 20,
+            "spe": 50
+        },
+        "url": "https://pokemondb.net/pokedex/13"
+    },
+    "0014": {
+        "name": "Kakuna",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "abilities": [
+            "Shed Skin"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "att": 25,
+            "defe": 50,
+            "spatt": 25,
+            "spdef": 25,
+            "spe": 35
+        },
+        "url": "https://pokemondb.net/pokedex/14"
+    },
+    "0015": {
+        "name": "Beedrill",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "abilities": [
+            "Swarm",
+            "Sniper"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 90,
+            "defe": 40,
+            "spatt": 45,
+            "spdef": 80,
+            "spe": 75
+        },
+        "url": "https://pokemondb.net/pokedex/15"
+    },
+    "0016": {
+        "name": "Pidgey",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Keen Eye",
+            "Tangled Feet",
+            "Big Pecks"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "att": 45,
+            "defe": 40,
+            "spatt": 35,
+            "spdef": 35,
+            "spe": 56
+        },
+        "url": "https://pokemondb.net/pokedex/16"
+    },
+    "0017": {
+        "name": "Pidgeotto",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Keen Eye",
+            "Tangled Feet",
+            "Big Pecks"
+        ],
+        "base_stats": {
+            "hp": 63,
+            "att": 60,
+            "defe": 55,
+            "spatt": 50,
+            "spdef": 50,
+            "spe": 71
+        },
+        "url": "https://pokemondb.net/pokedex/17"
+    },
+    "0018": {
+        "name": "Pidgeot",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Keen Eye",
+            "Tangled Feet",
+            "Big Pecks"
+        ],
+        "base_stats": {
+            "hp": 83,
+            "att": 80,
+            "defe": 75,
+            "spatt": 70,
+            "spdef": 70,
+            "spe": 101
+        },
+        "url": "https://pokemondb.net/pokedex/18"
+    },
+    "0019": {
+        "name": "Rattata",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Run Away",
+            "Guts",
+            "Hustle"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "att": 56,
+            "defe": 35,
+            "spatt": 25,
+            "spdef": 35,
+            "spe": 72
+        },
+        "url": "https://pokemondb.net/pokedex/19"
+    },
+    "0020": {
+        "name": "Raticate",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Run Away",
+            "Guts",
+            "Hustle"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "att": 81,
+            "defe": 60,
+            "spatt": 50,
+            "spdef": 70,
+            "spe": 97
+        },
+        "url": "https://pokemondb.net/pokedex/20"
+    },
+    "0021": {
+        "name": "Spearow",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Keen Eye",
+            "Sniper"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "att": 60,
+            "defe": 30,
+            "spatt": 31,
+            "spdef": 31,
+            "spe": 70
+        },
+        "url": "https://pokemondb.net/pokedex/21"
+    },
+    "0022": {
+        "name": "Fearow",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Keen Eye",
+            "Sniper"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 90,
+            "defe": 65,
+            "spatt": 61,
+            "spdef": 61,
+            "spe": 100
+        },
+        "url": "https://pokemondb.net/pokedex/22"
+    },
+    "0023": {
+        "name": "Ekans",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            "Intimidate",
+            "Shed Skin",
+            "Unnerve"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "att": 60,
+            "defe": 44,
+            "spatt": 40,
+            "spdef": 54,
+            "spe": 55
+        },
+        "url": "https://pokemondb.net/pokedex/23"
+    },
+    "0024": {
+        "name": "Arbok",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            "Intimidate",
+            "Shed Skin",
+            "Unnerve"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 95,
+            "defe": 69,
+            "spatt": 65,
+            "spdef": 79,
+            "spe": 80
+        },
+        "url": "https://pokemondb.net/pokedex/24"
+    },
+    "0025": {
+        "name": "Pikachu",
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Static",
+            "Lightning Rod"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "att": 55,
+            "defe": 40,
+            "spatt": 50,
+            "spdef": 50,
+            "spe": 90
+        },
+        "url": "https://pokemondb.net/pokedex/25"
+    },
+    "0026": {
+        "name": "Raichu",
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Static",
+            "Lightning Rod"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 90,
+            "defe": 55,
+            "spatt": 90,
+            "spdef": 80,
+            "spe": 110
+        },
+        "url": "https://pokemondb.net/pokedex/26"
+    },
+    "0027": {
+        "name": "Sandshrew",
+        "types": [
+            "Ground"
+        ],
+        "abilities": [
+            "Sand Veil",
+            "Sand Rush"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "att": 75,
+            "defe": 85,
+            "spatt": 20,
+            "spdef": 30,
+            "spe": 40
+        },
+        "url": "https://pokemondb.net/pokedex/27"
+    },
+    "0028": {
+        "name": "Sandslash",
+        "types": [
+            "Ground"
+        ],
+        "abilities": [
+            "Sand Veil",
+            "Sand Rush"
+        ],
+        "base_stats": {
+            "hp": 75,
+            "att": 100,
+            "defe": 110,
+            "spatt": 45,
+            "spdef": 55,
+            "spe": 65
+        },
+        "url": "https://pokemondb.net/pokedex/28"
+    },
+    "0029": {
+        "name": "Nidoran\u2640 (female)",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Hustle"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "att": 47,
+            "defe": 52,
+            "spatt": 40,
+            "spdef": 40,
+            "spe": 41
+        },
+        "url": "https://pokemondb.net/pokedex/29"
+    },
+    "0030": {
+        "name": "Nidorina",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Hustle"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "att": 62,
+            "defe": 67,
+            "spatt": 55,
+            "spdef": 55,
+            "spe": 56
+        },
+        "url": "https://pokemondb.net/pokedex/30"
+    },
+    "0031": {
+        "name": "Nidoqueen",
+        "types": [
+            "Poison",
+            "Ground"
+        ],
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Sheer Force"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "att": 92,
+            "defe": 87,
+            "spatt": 75,
+            "spdef": 85,
+            "spe": 76
+        },
+        "url": "https://pokemondb.net/pokedex/31"
+    },
+    "0032": {
+        "name": "Nidoran\u2642 (male)",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Hustle"
+        ],
+        "base_stats": {
+            "hp": 46,
+            "att": 57,
+            "defe": 40,
+            "spatt": 40,
+            "spdef": 40,
+            "spe": 50
+        },
+        "url": "https://pokemondb.net/pokedex/32"
+    },
+    "0033": {
+        "name": "Nidorino",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Hustle"
+        ],
+        "base_stats": {
+            "hp": 61,
+            "att": 72,
+            "defe": 57,
+            "spatt": 55,
+            "spdef": 55,
+            "spe": 65
+        },
+        "url": "https://pokemondb.net/pokedex/33"
+    },
+    "0034": {
+        "name": "Nidoking",
+        "types": [
+            "Poison",
+            "Ground"
+        ],
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Sheer Force"
+        ],
+        "base_stats": {
+            "hp": 81,
+            "att": 102,
+            "defe": 77,
+            "spatt": 85,
+            "spdef": 75,
+            "spe": 85
+        },
+        "url": "https://pokemondb.net/pokedex/34"
+    },
+    "0035": {
+        "name": "Clefairy",
+        "types": [
+            "Fairy"
+        ],
+        "abilities": [
+            "Cute Charm",
+            "Magic Guard",
+            "Friend Guard"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "att": 45,
+            "defe": 48,
+            "spatt": 60,
+            "spdef": 65,
+            "spe": 35
+        },
+        "url": "https://pokemondb.net/pokedex/35"
+    },
+    "0036": {
+        "name": "Clefable",
+        "types": [
+            "Fairy"
+        ],
+        "abilities": [
+            "Cute Charm",
+            "Magic Guard",
+            "Unaware"
+        ],
+        "base_stats": {
+            "hp": 95,
+            "att": 70,
+            "defe": 73,
+            "spatt": 95,
+            "spdef": 90,
+            "spe": 60
+        },
+        "url": "https://pokemondb.net/pokedex/36"
+    },
+    "0037": {
+        "name": "Vulpix",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            "Flash Fire",
+            "Drought"
+        ],
+        "base_stats": {
+            "hp": 38,
+            "att": 41,
+            "defe": 40,
+            "spatt": 50,
+            "spdef": 65,
+            "spe": 65
+        },
+        "url": "https://pokemondb.net/pokedex/37"
+    },
+    "0038": {
+        "name": "Ninetales",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            "Flash Fire",
+            "Drought"
+        ],
+        "base_stats": {
+            "hp": 73,
+            "att": 76,
+            "defe": 75,
+            "spatt": 81,
+            "spdef": 100,
+            "spe": 100
+        },
+        "url": "https://pokemondb.net/pokedex/38"
+    },
+    "0039": {
+        "name": "Jigglypuff",
+        "types": [
+            "Normal",
+            "Fairy"
+        ],
+        "abilities": [
+            "Cute Charm",
+            "Competitive",
+            "Friend Guard"
+        ],
+        "base_stats": {
+            "hp": 115,
+            "att": 45,
+            "defe": 20,
+            "spatt": 45,
+            "spdef": 25,
+            "spe": 20
+        },
+        "url": "https://pokemondb.net/pokedex/39"
+    },
+    "0040": {
+        "name": "Wigglytuff",
+        "types": [
+            "Normal",
+            "Fairy"
+        ],
+        "abilities": [
+            "Cute Charm",
+            "Competitive",
+            "Frisk"
+        ],
+        "base_stats": {
+            "hp": 140,
+            "att": 70,
+            "defe": 45,
+            "spatt": 85,
+            "spdef": 50,
+            "spe": 45
+        },
+        "url": "https://pokemondb.net/pokedex/40"
+    },
+    "0041": {
+        "name": "Zubat",
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "abilities": [
+            "Inner Focus",
+            "Infiltrator"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "att": 45,
+            "defe": 35,
+            "spatt": 30,
+            "spdef": 40,
+            "spe": 55
+        },
+        "url": "https://pokemondb.net/pokedex/41"
+    },
+    "0042": {
+        "name": "Golbat",
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "abilities": [
+            "Inner Focus",
+            "Infiltrator"
+        ],
+        "base_stats": {
+            "hp": 75,
+            "att": 80,
+            "defe": 70,
+            "spatt": 65,
+            "spdef": 75,
+            "spe": 90
+        },
+        "url": "https://pokemondb.net/pokedex/42"
+    },
+    "0043": {
+        "name": "Oddish",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            "Chlorophyll",
+            "Run Away"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "att": 50,
+            "defe": 55,
+            "spatt": 75,
+            "spdef": 65,
+            "spe": 30
+        },
+        "url": "https://pokemondb.net/pokedex/43"
+    },
+    "0044": {
+        "name": "Gloom",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            "Chlorophyll",
+            "Stench"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 65,
+            "defe": 70,
+            "spatt": 85,
+            "spdef": 75,
+            "spe": 40
+        },
+        "url": "https://pokemondb.net/pokedex/44"
+    },
+    "0045": {
+        "name": "Vileplume",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            "Chlorophyll",
+            "Effect Spore"
+        ],
+        "base_stats": {
+            "hp": 75,
+            "att": 80,
+            "defe": 85,
+            "spatt": 110,
+            "spdef": 90,
+            "spe": 50
+        },
+        "url": "https://pokemondb.net/pokedex/45"
+    },
+    "0046": {
+        "name": "Paras",
+        "types": [
+            "Bug",
+            "Grass"
+        ],
+        "abilities": [
+            "Effect Spore",
+            "Dry Skin",
+            "Damp"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "att": 70,
+            "defe": 55,
+            "spatt": 45,
+            "spdef": 55,
+            "spe": 25
+        },
+        "url": "https://pokemondb.net/pokedex/46"
+    },
+    "0047": {
+        "name": "Parasect",
+        "types": [
+            "Bug",
+            "Grass"
+        ],
+        "abilities": [
+            "Effect Spore",
+            "Dry Skin",
+            "Damp"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 95,
+            "defe": 80,
+            "spatt": 60,
+            "spdef": 80,
+            "spe": 30
+        },
+        "url": "https://pokemondb.net/pokedex/47"
+    },
+    "0048": {
+        "name": "Venonat",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "abilities": [
+            "Compound Eyes",
+            "Tinted Lens",
+            "Run Away"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 55,
+            "defe": 50,
+            "spatt": 40,
+            "spdef": 55,
+            "spe": 45
+        },
+        "url": "https://pokemondb.net/pokedex/48"
+    },
+    "0049": {
+        "name": "Venomoth",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "abilities": [
+            "Shield Dust",
+            "Tinted Lens",
+            "Wonder Skin"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "att": 65,
+            "defe": 60,
+            "spatt": 90,
+            "spdef": 75,
+            "spe": 90
+        },
+        "url": "https://pokemondb.net/pokedex/49"
+    },
+    "0050": {
+        "name": "Diglett",
+        "types": [
+            "Ground"
+        ],
+        "abilities": [
+            "Sand Veil",
+            "Arena Trap",
+            "Sand Force"
+        ],
+        "base_stats": {
+            "hp": 10,
+            "att": 55,
+            "defe": 25,
+            "spatt": 35,
+            "spdef": 45,
+            "spe": 95
+        },
+        "url": "https://pokemondb.net/pokedex/50"
+    },
+    "0051": {
+        "name": "Dugtrio",
+        "types": [
+            "Ground"
+        ],
+        "abilities": [
+            "Sand Veil",
+            "Arena Trap",
+            "Sand Force"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "att": 100,
+            "defe": 50,
+            "spatt": 50,
+            "spdef": 70,
+            "spe": 120
+        },
+        "url": "https://pokemondb.net/pokedex/51"
+    },
+    "0052": {
+        "name": "Meowth",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Pickup",
+            "Technician",
+            "Unnerve"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "att": 45,
+            "defe": 35,
+            "spatt": 40,
+            "spdef": 40,
+            "spe": 90
+        },
+        "url": "https://pokemondb.net/pokedex/52"
+    },
+    "0053": {
+        "name": "Persian",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Limber",
+            "Technician",
+            "Unnerve"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 70,
+            "defe": 60,
+            "spatt": 65,
+            "spdef": 65,
+            "spe": 115
+        },
+        "url": "https://pokemondb.net/pokedex/53"
+    },
+    "0054": {
+        "name": "Psyduck",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Damp",
+            "Cloud Nine",
+            "Swift Swim"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "att": 52,
+            "defe": 48,
+            "spatt": 65,
+            "spdef": 50,
+            "spe": 55
+        },
+        "url": "https://pokemondb.net/pokedex/54"
+    },
+    "0055": {
+        "name": "Golduck",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Damp",
+            "Cloud Nine",
+            "Swift Swim"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "att": 82,
+            "defe": 78,
+            "spatt": 95,
+            "spdef": 80,
+            "spe": 85
+        },
+        "url": "https://pokemondb.net/pokedex/55"
+    },
+    "0056": {
+        "name": "Mankey",
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            "Vital Spirit",
+            "Anger Point",
+            "Defiant"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "att": 80,
+            "defe": 35,
+            "spatt": 35,
+            "spdef": 45,
+            "spe": 70
+        },
+        "url": "https://pokemondb.net/pokedex/56"
+    },
+    "0057": {
+        "name": "Primeape",
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            "Vital Spirit",
+            "Anger Point",
+            "Defiant"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 105,
+            "defe": 60,
+            "spatt": 60,
+            "spdef": 70,
+            "spe": 95
+        },
+        "url": "https://pokemondb.net/pokedex/57"
+    },
+    "0058": {
+        "name": "Growlithe",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            "Intimidate",
+            "Flash Fire",
+            "Justified"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "att": 70,
+            "defe": 45,
+            "spatt": 70,
+            "spdef": 50,
+            "spe": 60
+        },
+        "url": "https://pokemondb.net/pokedex/58"
+    },
+    "0059": {
+        "name": "Arcanine",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            "Intimidate",
+            "Flash Fire",
+            "Justified"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "att": 110,
+            "defe": 80,
+            "spatt": 100,
+            "spdef": 80,
+            "spe": 95
+        },
+        "url": "https://pokemondb.net/pokedex/59"
+    },
+    "0060": {
+        "name": "Poliwag",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Water Absorb",
+            "Damp",
+            "Swift Swim"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "att": 50,
+            "defe": 40,
+            "spatt": 40,
+            "spdef": 40,
+            "spe": 90
+        },
+        "url": "https://pokemondb.net/pokedex/60"
+    },
+    "0061": {
+        "name": "Poliwhirl",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Water Absorb",
+            "Damp",
+            "Swift Swim"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 65,
+            "defe": 65,
+            "spatt": 50,
+            "spdef": 50,
+            "spe": 90
+        },
+        "url": "https://pokemondb.net/pokedex/61"
+    },
+    "0062": {
+        "name": "Poliwrath",
+        "types": [
+            "Water",
+            "Fighting"
+        ],
+        "abilities": [
+            "Water Absorb",
+            "Damp",
+            "Swift Swim"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "att": 95,
+            "defe": 95,
+            "spatt": 70,
+            "spdef": 90,
+            "spe": 70
+        },
+        "url": "https://pokemondb.net/pokedex/62"
+    },
+    "0063": {
+        "name": "Abra",
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Synchronize",
+            "Inner Focus",
+            "Magic Guard"
+        ],
+        "base_stats": {
+            "hp": 25,
+            "att": 20,
+            "defe": 15,
+            "spatt": 105,
+            "spdef": 55,
+            "spe": 90
+        },
+        "url": "https://pokemondb.net/pokedex/63"
+    },
+    "0064": {
+        "name": "Kadabra",
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Synchronize",
+            "Inner Focus",
+            "Magic Guard"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "att": 35,
+            "defe": 30,
+            "spatt": 120,
+            "spdef": 70,
+            "spe": 105
+        },
+        "url": "https://pokemondb.net/pokedex/64"
+    },
+    "0065": {
+        "name": "Alakazam",
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Synchronize",
+            "Inner Focus",
+            "Magic Guard"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "att": 50,
+            "defe": 45,
+            "spatt": 135,
+            "spdef": 95,
+            "spe": 120
+        },
+        "url": "https://pokemondb.net/pokedex/65"
+    },
+    "0066": {
+        "name": "Machop",
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            "Guts",
+            "No Guard",
+            "Steadfast"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "att": 80,
+            "defe": 50,
+            "spatt": 35,
+            "spdef": 35,
+            "spe": 35
+        },
+        "url": "https://pokemondb.net/pokedex/66"
+    },
+    "0067": {
+        "name": "Machoke",
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            "Guts",
+            "No Guard",
+            "Steadfast"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "att": 100,
+            "defe": 70,
+            "spatt": 50,
+            "spdef": 60,
+            "spe": 45
+        },
+        "url": "https://pokemondb.net/pokedex/67"
+    },
+    "0068": {
+        "name": "Machamp",
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            "Guts",
+            "No Guard",
+            "Steadfast"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "att": 130,
+            "defe": 80,
+            "spatt": 65,
+            "spdef": 85,
+            "spe": 55
+        },
+        "url": "https://pokemondb.net/pokedex/68"
+    },
+    "0069": {
+        "name": "Bellsprout",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            "Chlorophyll",
+            "Gluttony"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "att": 75,
+            "defe": 35,
+            "spatt": 70,
+            "spdef": 30,
+            "spe": 40
+        },
+        "url": "https://pokemondb.net/pokedex/69"
+    },
+    "0070": {
+        "name": "Weepinbell",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            "Chlorophyll",
+            "Gluttony"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 90,
+            "defe": 50,
+            "spatt": 85,
+            "spdef": 45,
+            "spe": 55
+        },
+        "url": "https://pokemondb.net/pokedex/70"
+    },
+    "0071": {
+        "name": "Victreebel",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            "Chlorophyll",
+            "Gluttony"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "att": 105,
+            "defe": 65,
+            "spatt": 100,
+            "spdef": 70,
+            "spe": 70
+        },
+        "url": "https://pokemondb.net/pokedex/71"
+    },
+    "0072": {
+        "name": "Tentacool",
+        "types": [
+            "Water",
+            "Poison"
+        ],
+        "abilities": [
+            "Clear Body",
+            "Liquid Ooze",
+            "Rain Dish"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "att": 40,
+            "defe": 35,
+            "spatt": 50,
+            "spdef": 100,
+            "spe": 70
+        },
+        "url": "https://pokemondb.net/pokedex/72"
+    },
+    "0073": {
+        "name": "Tentacruel",
+        "types": [
+            "Water",
+            "Poison"
+        ],
+        "abilities": [
+            "Clear Body",
+            "Liquid Ooze",
+            "Rain Dish"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "att": 70,
+            "defe": 65,
+            "spatt": 80,
+            "spdef": 120,
+            "spe": 100
+        },
+        "url": "https://pokemondb.net/pokedex/73"
+    },
+    "0074": {
+        "name": "Geodude",
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Sturdy",
+            "Sand Veil"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "att": 80,
+            "defe": 100,
+            "spatt": 30,
+            "spdef": 30,
+            "spe": 20
+        },
+        "url": "https://pokemondb.net/pokedex/74"
+    },
+    "0075": {
+        "name": "Graveler",
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Sturdy",
+            "Sand Veil"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "att": 95,
+            "defe": 115,
+            "spatt": 45,
+            "spdef": 45,
+            "spe": 35
+        },
+        "url": "https://pokemondb.net/pokedex/75"
+    },
+    "0076": {
+        "name": "Golem",
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Sturdy",
+            "Sand Veil"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "att": 120,
+            "defe": 130,
+            "spatt": 55,
+            "spdef": 65,
+            "spe": 45
+        },
+        "url": "https://pokemondb.net/pokedex/76"
+    },
+    "0077": {
+        "name": "Ponyta",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            "Run Away",
+            "Flash Fire",
+            "Flame Body"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "att": 85,
+            "defe": 55,
+            "spatt": 65,
+            "spdef": 65,
+            "spe": 90
+        },
+        "url": "https://pokemondb.net/pokedex/77"
+    },
+    "0078": {
+        "name": "Rapidash",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            "Run Away",
+            "Flash Fire",
+            "Flame Body"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 100,
+            "defe": 70,
+            "spatt": 80,
+            "spdef": 80,
+            "spe": 105
+        },
+        "url": "https://pokemondb.net/pokedex/78"
+    },
+    "0079": {
+        "name": "Slowpoke",
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "abilities": [
+            "Oblivious",
+            "Own Tempo",
+            "Regenerator"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "att": 65,
+            "defe": 65,
+            "spatt": 40,
+            "spdef": 40,
+            "spe": 15
+        },
+        "url": "https://pokemondb.net/pokedex/79"
+    },
+    "0080": {
+        "name": "Slowbro",
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "abilities": [
+            "Oblivious",
+            "Own Tempo",
+            "Regenerator"
+        ],
+        "base_stats": {
+            "hp": 95,
+            "att": 75,
+            "defe": 110,
+            "spatt": 100,
+            "spdef": 80,
+            "spe": 30
+        },
+        "url": "https://pokemondb.net/pokedex/80"
+    },
+    "0081": {
+        "name": "Magnemite",
+        "types": [
+            "Electric",
+            "Steel"
+        ],
+        "abilities": [
+            "Magnet Pull",
+            "Sturdy",
+            "Analytic"
+        ],
+        "base_stats": {
+            "hp": 25,
+            "att": 35,
+            "defe": 70,
+            "spatt": 95,
+            "spdef": 55,
+            "spe": 45
+        },
+        "url": "https://pokemondb.net/pokedex/81"
+    },
+    "0082": {
+        "name": "Magneton",
+        "types": [
+            "Electric",
+            "Steel"
+        ],
+        "abilities": [
+            "Magnet Pull",
+            "Sturdy",
+            "Analytic"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "att": 60,
+            "defe": 95,
+            "spatt": 120,
+            "spdef": 70,
+            "spe": 70
+        },
+        "url": "https://pokemondb.net/pokedex/82"
+    },
+    "0083": {
+        "name": "Farfetch'd",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Keen Eye",
+            "Inner Focus",
+            "Defiant"
+        ],
+        "base_stats": {
+            "hp": 52,
+            "att": 90,
+            "defe": 55,
+            "spatt": 58,
+            "spdef": 62,
+            "spe": 60
+        },
+        "url": "https://pokemondb.net/pokedex/83"
+    },
+    "0084": {
+        "name": "Doduo",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Run Away",
+            "Early Bird",
+            "Tangled Feet"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "att": 85,
+            "defe": 45,
+            "spatt": 35,
+            "spdef": 35,
+            "spe": 75
+        },
+        "url": "https://pokemondb.net/pokedex/84"
+    },
+    "0085": {
+        "name": "Dodrio",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Run Away",
+            "Early Bird",
+            "Tangled Feet"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 110,
+            "defe": 70,
+            "spatt": 60,
+            "spdef": 60,
+            "spe": 110
+        },
+        "url": "https://pokemondb.net/pokedex/85"
+    },
+    "0086": {
+        "name": "Seel",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Thick Fat",
+            "Hydration",
+            "Ice Body"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 45,
+            "defe": 55,
+            "spatt": 45,
+            "spdef": 70,
+            "spe": 45
+        },
+        "url": "https://pokemondb.net/pokedex/86"
+    },
+    "0087": {
+        "name": "Dewgong",
+        "types": [
+            "Water",
+            "Ice"
+        ],
+        "abilities": [
+            "Thick Fat",
+            "Hydration",
+            "Ice Body"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "att": 70,
+            "defe": 80,
+            "spatt": 70,
+            "spdef": 95,
+            "spe": 70
+        },
+        "url": "https://pokemondb.net/pokedex/87"
+    },
+    "0088": {
+        "name": "Grimer",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            "Stench",
+            "Sticky Hold",
+            "Poison Touch"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "att": 80,
+            "defe": 50,
+            "spatt": 40,
+            "spdef": 50,
+            "spe": 25
+        },
+        "url": "https://pokemondb.net/pokedex/88"
+    },
+    "0089": {
+        "name": "Muk",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            "Stench",
+            "Sticky Hold",
+            "Poison Touch"
+        ],
+        "base_stats": {
+            "hp": 105,
+            "att": 105,
+            "defe": 75,
+            "spatt": 65,
+            "spdef": 100,
+            "spe": 50
+        },
+        "url": "https://pokemondb.net/pokedex/89"
+    },
+    "0090": {
+        "name": "Shellder",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Shell Armor",
+            "Skill Link",
+            "Overcoat"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "att": 65,
+            "defe": 100,
+            "spatt": 45,
+            "spdef": 25,
+            "spe": 40
+        },
+        "url": "https://pokemondb.net/pokedex/90"
+    },
+    "0091": {
+        "name": "Cloyster",
+        "types": [
+            "Water",
+            "Ice"
+        ],
+        "abilities": [
+            "Shell Armor",
+            "Skill Link",
+            "Overcoat"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "att": 95,
+            "defe": 180,
+            "spatt": 85,
+            "spdef": 45,
+            "spe": 70
+        },
+        "url": "https://pokemondb.net/pokedex/91"
+    },
+    "0092": {
+        "name": "Gastly",
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "att": 35,
+            "defe": 30,
+            "spatt": 100,
+            "spdef": 35,
+            "spe": 80
+        },
+        "url": "https://pokemondb.net/pokedex/92"
+    },
+    "0093": {
+        "name": "Haunter",
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "att": 50,
+            "defe": 45,
+            "spatt": 115,
+            "spdef": 55,
+            "spe": 95
+        },
+        "url": "https://pokemondb.net/pokedex/93"
+    },
+    "0094": {
+        "name": "Gengar",
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "abilities": [
+            "Cursed Body"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 65,
+            "defe": 60,
+            "spatt": 130,
+            "spdef": 75,
+            "spe": 110
+        },
+        "url": "https://pokemondb.net/pokedex/94"
+    },
+    "0095": {
+        "name": "Onix",
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Sturdy",
+            "Weak Armor"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "att": 45,
+            "defe": 160,
+            "spatt": 30,
+            "spdef": 45,
+            "spe": 70
+        },
+        "url": "https://pokemondb.net/pokedex/95"
+    },
+    "0096": {
+        "name": "Drowzee",
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Insomnia",
+            "Forewarn",
+            "Inner Focus"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 48,
+            "defe": 45,
+            "spatt": 43,
+            "spdef": 90,
+            "spe": 42
+        },
+        "url": "https://pokemondb.net/pokedex/96"
+    },
+    "0097": {
+        "name": "Hypno",
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Insomnia",
+            "Forewarn",
+            "Inner Focus"
+        ],
+        "base_stats": {
+            "hp": 85,
+            "att": 73,
+            "defe": 70,
+            "spatt": 73,
+            "spdef": 115,
+            "spe": 67
+        },
+        "url": "https://pokemondb.net/pokedex/97"
+    },
+    "0098": {
+        "name": "Krabby",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Hyper Cutter",
+            "Shell Armor",
+            "Sheer Force"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "att": 105,
+            "defe": 90,
+            "spatt": 25,
+            "spdef": 25,
+            "spe": 50
+        },
+        "url": "https://pokemondb.net/pokedex/98"
+    },
+    "0099": {
+        "name": "Kingler",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Hyper Cutter",
+            "Shell Armor",
+            "Sheer Force"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "att": 130,
+            "defe": 115,
+            "spatt": 50,
+            "spdef": 50,
+            "spe": 75
+        },
+        "url": "https://pokemondb.net/pokedex/99"
+    },
+    "0100": {
+        "name": "Voltorb",
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Soundproof",
+            "Static",
+            "Aftermath"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "att": 30,
+            "defe": 50,
+            "spatt": 55,
+            "spdef": 55,
+            "spe": 100
+        },
+        "url": "https://pokemondb.net/pokedex/100"
+    },
+    "0101": {
+        "name": "Electrode",
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Soundproof",
+            "Static",
+            "Aftermath"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 50,
+            "defe": 70,
+            "spatt": 80,
+            "spdef": 80,
+            "spe": 150
+        },
+        "url": "https://pokemondb.net/pokedex/101"
+    },
+    "0102": {
+        "name": "Exeggcute",
+        "types": [
+            "Grass",
+            "Psychic"
+        ],
+        "abilities": [
+            "Chlorophyll",
+            "Harvest"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 40,
+            "defe": 80,
+            "spatt": 60,
+            "spdef": 45,
+            "spe": 40
+        },
+        "url": "https://pokemondb.net/pokedex/102"
+    },
+    "0103": {
+        "name": "Exeggutor",
+        "types": [
+            "Grass",
+            "Psychic"
+        ],
+        "abilities": [
+            "Chlorophyll",
+            "Harvest"
+        ],
+        "base_stats": {
+            "hp": 95,
+            "att": 95,
+            "defe": 85,
+            "spatt": 125,
+            "spdef": 75,
+            "spe": 55
+        },
+        "url": "https://pokemondb.net/pokedex/103"
+    },
+    "0104": {
+        "name": "Cubone",
+        "types": [
+            "Ground"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Lightning Rod",
+            "Battle Armor"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "att": 50,
+            "defe": 95,
+            "spatt": 40,
+            "spdef": 50,
+            "spe": 35
+        },
+        "url": "https://pokemondb.net/pokedex/104"
+    },
+    "0105": {
+        "name": "Marowak",
+        "types": [
+            "Ground"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Lightning Rod",
+            "Battle Armor"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 80,
+            "defe": 110,
+            "spatt": 50,
+            "spdef": 80,
+            "spe": 45
+        },
+        "url": "https://pokemondb.net/pokedex/105"
+    },
+    "0106": {
+        "name": "Hitmonlee",
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            "Limber",
+            "Reckless",
+            "Unburden"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "att": 120,
+            "defe": 53,
+            "spatt": 35,
+            "spdef": 110,
+            "spe": 87
+        },
+        "url": "https://pokemondb.net/pokedex/106"
+    },
+    "0107": {
+        "name": "Hitmonchan",
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            "Keen Eye",
+            "Iron Fist",
+            "Inner Focus"
+        ],
+        "base_stats": {
+            "hp": 50,
+            "att": 105,
+            "defe": 79,
+            "spatt": 35,
+            "spdef": 110,
+            "spe": 76
+        },
+        "url": "https://pokemondb.net/pokedex/107"
+    },
+    "0108": {
+        "name": "Lickitung",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Own Tempo",
+            "Oblivious",
+            "Cloud Nine"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "att": 55,
+            "defe": 75,
+            "spatt": 60,
+            "spdef": 75,
+            "spe": 30
+        },
+        "url": "https://pokemondb.net/pokedex/108"
+    },
+    "0109": {
+        "name": "Koffing",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            "Levitate",
+            "Neutralizing Gas",
+            "Stench"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "att": 65,
+            "defe": 95,
+            "spatt": 60,
+            "spdef": 45,
+            "spe": 35
+        },
+        "url": "https://pokemondb.net/pokedex/109"
+    },
+    "0110": {
+        "name": "Weezing",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            "Levitate",
+            "Neutralizing Gas",
+            "Stench"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 90,
+            "defe": 120,
+            "spatt": 85,
+            "spdef": 70,
+            "spe": 60
+        },
+        "url": "https://pokemondb.net/pokedex/110"
+    },
+    "0111": {
+        "name": "Rhyhorn",
+        "types": [
+            "Ground",
+            "Rock"
+        ],
+        "abilities": [
+            "Lightning Rod",
+            "Rock Head",
+            "Reckless"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "att": 85,
+            "defe": 95,
+            "spatt": 30,
+            "spdef": 30,
+            "spe": 25
+        },
+        "url": "https://pokemondb.net/pokedex/111"
+    },
+    "0112": {
+        "name": "Rhydon",
+        "types": [
+            "Ground",
+            "Rock"
+        ],
+        "abilities": [
+            "Lightning Rod",
+            "Rock Head",
+            "Reckless"
+        ],
+        "base_stats": {
+            "hp": 105,
+            "att": 130,
+            "defe": 120,
+            "spatt": 45,
+            "spdef": 45,
+            "spe": 40
+        },
+        "url": "https://pokemondb.net/pokedex/112"
+    },
+    "0113": {
+        "name": "Chansey",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Natural Cure",
+            "Serene Grace",
+            "Healer"
+        ],
+        "base_stats": {
+            "hp": 250,
+            "att": 5,
+            "defe": 5,
+            "spatt": 35,
+            "spdef": 105,
+            "spe": 50
+        },
+        "url": "https://pokemondb.net/pokedex/113"
+    },
+    "0114": {
+        "name": "Tangela",
+        "types": [
+            "Grass"
+        ],
+        "abilities": [
+            "Chlorophyll",
+            "Leaf Guard",
+            "Regenerator"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 55,
+            "defe": 115,
+            "spatt": 100,
+            "spdef": 40,
+            "spe": 60
+        },
+        "url": "https://pokemondb.net/pokedex/114"
+    },
+    "0115": {
+        "name": "Kangaskhan",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Early Bird",
+            "Scrappy",
+            "Inner Focus"
+        ],
+        "base_stats": {
+            "hp": 105,
+            "att": 95,
+            "defe": 80,
+            "spatt": 40,
+            "spdef": 80,
+            "spe": 90
+        },
+        "url": "https://pokemondb.net/pokedex/115"
+    },
+    "0116": {
+        "name": "Horsea",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim",
+            "Sniper",
+            "Damp"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "att": 40,
+            "defe": 70,
+            "spatt": 70,
+            "spdef": 25,
+            "spe": 60
+        },
+        "url": "https://pokemondb.net/pokedex/116"
+    },
+    "0117": {
+        "name": "Seadra",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Poison Point",
+            "Sniper",
+            "Damp"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "att": 65,
+            "defe": 95,
+            "spatt": 95,
+            "spdef": 45,
+            "spe": 85
+        },
+        "url": "https://pokemondb.net/pokedex/117"
+    },
+    "0118": {
+        "name": "Goldeen",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim",
+            "Water Veil",
+            "Lightning Rod"
+        ],
+        "base_stats": {
+            "hp": 45,
+            "att": 67,
+            "defe": 60,
+            "spatt": 35,
+            "spdef": 50,
+            "spe": 63
+        },
+        "url": "https://pokemondb.net/pokedex/118"
+    },
+    "0119": {
+        "name": "Seaking",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim",
+            "Water Veil",
+            "Lightning Rod"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "att": 92,
+            "defe": 65,
+            "spatt": 65,
+            "spdef": 80,
+            "spe": 68
+        },
+        "url": "https://pokemondb.net/pokedex/119"
+    },
+    "0120": {
+        "name": "Staryu",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Illuminate",
+            "Natural Cure",
+            "Analytic"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "att": 45,
+            "defe": 55,
+            "spatt": 70,
+            "spdef": 55,
+            "spe": 85
+        },
+        "url": "https://pokemondb.net/pokedex/120"
+    },
+    "0121": {
+        "name": "Starmie",
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "abilities": [
+            "Illuminate",
+            "Natural Cure",
+            "Analytic"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 75,
+            "defe": 85,
+            "spatt": 100,
+            "spdef": 85,
+            "spe": 115
+        },
+        "url": "https://pokemondb.net/pokedex/121"
+    },
+    "0122": {
+        "name": "Mr. Mime",
+        "types": [
+            "Psychic",
+            "Fairy"
+        ],
+        "abilities": [
+            "Soundproof",
+            "Filter",
+            "Technician"
+        ],
+        "base_stats": {
+            "hp": 40,
+            "att": 45,
+            "defe": 65,
+            "spatt": 100,
+            "spdef": 120,
+            "spe": 90
+        },
+        "url": "https://pokemondb.net/pokedex/122"
+    },
+    "0123": {
+        "name": "Scyther",
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "abilities": [
+            "Swarm",
+            "Technician",
+            "Steadfast"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "att": 110,
+            "defe": 80,
+            "spatt": 55,
+            "spdef": 80,
+            "spe": 105
+        },
+        "url": "https://pokemondb.net/pokedex/123"
+    },
+    "0124": {
+        "name": "Jynx",
+        "types": [
+            "Ice",
+            "Psychic"
+        ],
+        "abilities": [
+            "Oblivious",
+            "Forewarn",
+            "Dry Skin"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 50,
+            "defe": 35,
+            "spatt": 115,
+            "spdef": 95,
+            "spe": 95
+        },
+        "url": "https://pokemondb.net/pokedex/124"
+    },
+    "0125": {
+        "name": "Electabuzz",
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Static",
+            "Vital Spirit"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 83,
+            "defe": 57,
+            "spatt": 95,
+            "spdef": 85,
+            "spe": 105
+        },
+        "url": "https://pokemondb.net/pokedex/125"
+    },
+    "0126": {
+        "name": "Magmar",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            "Flame Body",
+            "Vital Spirit"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 95,
+            "defe": 57,
+            "spatt": 100,
+            "spdef": 85,
+            "spe": 93
+        },
+        "url": "https://pokemondb.net/pokedex/126"
+    },
+    "0127": {
+        "name": "Pinsir",
+        "types": [
+            "Bug"
+        ],
+        "abilities": [
+            "Hyper Cutter",
+            "Mold Breaker",
+            "Moxie"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 125,
+            "defe": 100,
+            "spatt": 55,
+            "spdef": 70,
+            "spe": 85
+        },
+        "url": "https://pokemondb.net/pokedex/127"
+    },
+    "0128": {
+        "name": "Tauros",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Intimidate",
+            "Anger Point",
+            "Sheer Force"
+        ],
+        "base_stats": {
+            "hp": 75,
+            "att": 100,
+            "defe": 95,
+            "spatt": 40,
+            "spdef": 70,
+            "spe": 110
+        },
+        "url": "https://pokemondb.net/pokedex/128"
+    },
+    "0129": {
+        "name": "Magikarp",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim",
+            "Rattled"
+        ],
+        "base_stats": {
+            "hp": 20,
+            "att": 10,
+            "defe": 55,
+            "spatt": 15,
+            "spdef": 20,
+            "spe": 80
+        },
+        "url": "https://pokemondb.net/pokedex/129"
+    },
+    "0130": {
+        "name": "Gyarados",
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "abilities": [
+            "Intimidate",
+            "Moxie"
+        ],
+        "base_stats": {
+            "hp": 95,
+            "att": 125,
+            "defe": 79,
+            "spatt": 60,
+            "spdef": 100,
+            "spe": 81
+        },
+        "url": "https://pokemondb.net/pokedex/130"
+    },
+    "0131": {
+        "name": "Lapras",
+        "types": [
+            "Water",
+            "Ice"
+        ],
+        "abilities": [
+            "Water Absorb",
+            "Shell Armor",
+            "Hydration"
+        ],
+        "base_stats": {
+            "hp": 130,
+            "att": 85,
+            "defe": 80,
+            "spatt": 85,
+            "spdef": 95,
+            "spe": 60
+        },
+        "url": "https://pokemondb.net/pokedex/131"
+    },
+    "0132": {
+        "name": "Ditto",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Limber",
+            "Imposter"
+        ],
+        "base_stats": {
+            "hp": 48,
+            "att": 48,
+            "defe": 48,
+            "spatt": 48,
+            "spdef": 48,
+            "spe": 48
+        },
+        "url": "https://pokemondb.net/pokedex/132"
+    },
+    "0133": {
+        "name": "Eevee",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Run Away",
+            "Adaptability",
+            "Anticipation"
+        ],
+        "base_stats": {
+            "hp": 55,
+            "att": 55,
+            "defe": 50,
+            "spatt": 45,
+            "spdef": 65,
+            "spe": 55
+        },
+        "url": "https://pokemondb.net/pokedex/133"
+    },
+    "0134": {
+        "name": "Vaporeon",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Water Absorb",
+            "Hydration"
+        ],
+        "base_stats": {
+            "hp": 130,
+            "att": 65,
+            "defe": 60,
+            "spatt": 110,
+            "spdef": 95,
+            "spe": 65
+        },
+        "url": "https://pokemondb.net/pokedex/134"
+    },
+    "0135": {
+        "name": "Jolteon",
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Volt Absorb",
+            "Quick Feet"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 65,
+            "defe": 60,
+            "spatt": 110,
+            "spdef": 95,
+            "spe": 130
+        },
+        "url": "https://pokemondb.net/pokedex/135"
+    },
+    "0136": {
+        "name": "Flareon",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            "Flash Fire",
+            "Guts"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 130,
+            "defe": 60,
+            "spatt": 95,
+            "spdef": 110,
+            "spe": 65
+        },
+        "url": "https://pokemondb.net/pokedex/136"
+    },
+    "0137": {
+        "name": "Porygon",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Trace",
+            "Download",
+            "Analytic"
+        ],
+        "base_stats": {
+            "hp": 65,
+            "att": 60,
+            "defe": 70,
+            "spatt": 85,
+            "spdef": 75,
+            "spe": 40
+        },
+        "url": "https://pokemondb.net/pokedex/137"
+    },
+    "0138": {
+        "name": "Omanyte",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim",
+            "Shell Armor",
+            "Weak Armor"
+        ],
+        "base_stats": {
+            "hp": 35,
+            "att": 40,
+            "defe": 100,
+            "spatt": 90,
+            "spdef": 55,
+            "spe": 35
+        },
+        "url": "https://pokemondb.net/pokedex/138"
+    },
+    "0139": {
+        "name": "Omastar",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim",
+            "Shell Armor",
+            "Weak Armor"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "att": 60,
+            "defe": 125,
+            "spatt": 115,
+            "spdef": 70,
+            "spe": 55
+        },
+        "url": "https://pokemondb.net/pokedex/139"
+    },
+    "0140": {
+        "name": "Kabuto",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim",
+            "Battle Armor",
+            "Weak Armor"
+        ],
+        "base_stats": {
+            "hp": 30,
+            "att": 80,
+            "defe": 90,
+            "spatt": 55,
+            "spdef": 45,
+            "spe": 55
+        },
+        "url": "https://pokemondb.net/pokedex/140"
+    },
+    "0141": {
+        "name": "Kabutops",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim",
+            "Battle Armor",
+            "Weak Armor"
+        ],
+        "base_stats": {
+            "hp": 60,
+            "att": 115,
+            "defe": 105,
+            "spatt": 65,
+            "spdef": 70,
+            "spe": 80
+        },
+        "url": "https://pokemondb.net/pokedex/141"
+    },
+    "0142": {
+        "name": "Aerodactyl",
+        "types": [
+            "Rock",
+            "Flying"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Pressure",
+            "Unnerve"
+        ],
+        "base_stats": {
+            "hp": 80,
+            "att": 105,
+            "defe": 65,
+            "spatt": 60,
+            "spdef": 75,
+            "spe": 130
+        },
+        "url": "https://pokemondb.net/pokedex/142"
+    },
+    "0143": {
+        "name": "Snorlax",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Immunity",
+            "Thick Fat",
+            "Gluttony"
+        ],
+        "base_stats": {
+            "hp": 160,
+            "att": 110,
+            "defe": 65,
+            "spatt": 65,
+            "spdef": 110,
+            "spe": 30
+        },
+        "url": "https://pokemondb.net/pokedex/143"
+    },
+    "0144": {
+        "name": "Articuno",
+        "types": [
+            "Ice",
+            "Flying"
+        ],
+        "abilities": [
+            "Pressure",
+            "Snow Cloak"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "att": 85,
+            "defe": 100,
+            "spatt": 95,
+            "spdef": 125,
+            "spe": 85
+        },
+        "url": "https://pokemondb.net/pokedex/144"
+    },
+    "0145": {
+        "name": "Zapdos",
+        "types": [
+            "Electric",
+            "Flying"
+        ],
+        "abilities": [
+            "Pressure",
+            "Static"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "att": 90,
+            "defe": 85,
+            "spatt": 125,
+            "spdef": 90,
+            "spe": 100
+        },
+        "url": "https://pokemondb.net/pokedex/145"
+    },
+    "0146": {
+        "name": "Moltres",
+        "types": [
+            "Fire",
+            "Flying"
+        ],
+        "abilities": [
+            "Pressure",
+            "Flame Body"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "att": 100,
+            "defe": 90,
+            "spatt": 125,
+            "spdef": 85,
+            "spe": 90
+        },
+        "url": "https://pokemondb.net/pokedex/146"
+    },
+    "0147": {
+        "name": "Dratini",
+        "types": [
+            "Dragon"
+        ],
+        "abilities": [
+            "Shed Skin",
+            "Marvel Scale"
+        ],
+        "base_stats": {
+            "hp": 41,
+            "att": 64,
+            "defe": 45,
+            "spatt": 50,
+            "spdef": 50,
+            "spe": 50
+        },
+        "url": "https://pokemondb.net/pokedex/147"
+    },
+    "0148": {
+        "name": "Dragonair",
+        "types": [
+            "Dragon"
+        ],
+        "abilities": [
+            "Shed Skin",
+            "Marvel Scale"
+        ],
+        "base_stats": {
+            "hp": 61,
+            "att": 84,
+            "defe": 65,
+            "spatt": 70,
+            "spdef": 70,
+            "spe": 70
+        },
+        "url": "https://pokemondb.net/pokedex/148"
+    },
+    "0149": {
+        "name": "Dragonite",
+        "types": [
+            "Dragon",
+            "Flying"
+        ],
+        "abilities": [
+            "Inner Focus",
+            "Multiscale"
+        ],
+        "base_stats": {
+            "hp": 91,
+            "att": 134,
+            "defe": 95,
+            "spatt": 100,
+            "spdef": 100,
+            "spe": 80
+        },
+        "url": "https://pokemondb.net/pokedex/149"
+    },
+    "0150": {
+        "name": "Mewtwo",
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Pressure",
+            "Unnerve"
+        ],
+        "base_stats": {
+            "hp": 106,
+            "att": 110,
+            "defe": 90,
+            "spatt": 154,
+            "spdef": 90,
+            "spe": 130
+        },
+        "url": "https://pokemondb.net/pokedex/150"
+    },
+    "0151": {
+        "name": "Mew",
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Synchronize"
+        ],
+        "base_stats": {
+            "hp": 100,
+            "att": 100,
+            "defe": 100,
+            "spatt": 100,
+            "spdef": 100,
+            "spe": 100
+        },
+        "url": "https://pokemondb.net/pokedex/151"
+    }
+}

@@ -1,0 +1,484 @@
+{
+    "414854337987215380": {
+        "UID": "414854337987215380",
+        "slot1": {
+            "uid": "80eae479-ae02-4848-9199-78f059cd39bf",
+            "id": "0128",
+            "name": "Tauros",
+            "level": 1,
+            "nature": "Mild",
+            "friendLevel": 50,
+            "isShiny": true,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 5,
+                "att": 24,
+                "spatt": 27,
+                "defe": 9,
+                "spdef": 12,
+                "spe": 25
+            }
+        },
+        "slot2": {
+            "uid": "d1391b36-a62a-431b-b4ba-131e54396d19",
+            "id": "0001",
+            "name": "Bulbasaur",
+            "level": 1,
+            "nature": "Hardy",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 8,
+                "att": 5,
+                "spatt": 24,
+                "defe": 5,
+                "spdef": 21,
+                "spe": 11
+            }
+        },
+        "slot3": {
+            "uid": "d6118916-4ef0-4dff-9350-db6aa83e8116",
+            "id": "0137",
+            "name": "Porygon",
+            "level": 1,
+            "nature": "Gentle",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 23,
+                "att": 8,
+                "spatt": 8,
+                "defe": 10,
+                "spdef": 23,
+                "spe": 9
+            }
+        },
+        "slot4": {
+            "uid": "a8fecb40-eb42-4d12-be56-e0bec44b9a78",
+            "id": "0107",
+            "name": "Hitmonchan",
+            "level": 1,
+            "nature": "Mild",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 1,
+                "att": 0,
+                "spatt": 16,
+                "defe": 28,
+                "spdef": 8,
+                "spe": 21
+            }
+        },
+        "slot5": null,
+        "slot6": null,
+        "box": []
+    },
+    "583703526958432257": {
+        "UID": "583703526958432257",
+        "slot1": {
+            "uid": "49137ff5-caad-4570-b467-22a161e1c442",
+            "id": "0004",
+            "name": "Charmander",
+            "level": 1,
+            "nature": "Gentle",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 8,
+                "att": 23,
+                "spatt": 28,
+                "defe": 15,
+                "spdef": 9,
+                "spe": 16
+            }
+        },
+        "slot2": {
+            "uid": "958b0334-bfd8-43be-90db-5c3828943d0b",
+            "id": "0128",
+            "name": "Tauros",
+            "level": 1,
+            "nature": "Docile",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 1,
+                "att": 27,
+                "spatt": 7,
+                "defe": 30,
+                "spdef": 4,
+                "spe": 25
+            }
+        },
+        "slot3": {
+            "uid": "81c18001-5178-4cef-8a6f-94cec355296e",
+            "id": "0137",
+            "name": "Porygon",
+            "level": 1,
+            "nature": "Bashful",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 11,
+                "att": 1,
+                "spatt": 30,
+                "defe": 17,
+                "spdef": 0,
+                "spe": 8
+            }
+        },
+        "slot4": {
+            "uid": "24104f38-989f-4c15-ba4a-976d30a8c883",
+            "id": "0002",
+            "name": "Ivysaur",
+            "level": 1,
+            "nature": "Hasty",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 6,
+                "att": 13,
+                "spatt": 14,
+                "defe": 4,
+                "spdef": 29,
+                "spe": 29
+            }
+        },
+        "slot5": null,
+        "slot6": null,
+        "box": []
+    },
+    "525056587958845451": {
+        "UID": "525056587958845451",
+        "slot1": {
+            "uid": "3ed217f5-9bfd-4945-ab51-3006745d5a8e",
+            "id": "0007",
+            "name": "Squirtle",
+            "level": 1,
+            "nature": "Modest",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 7,
+                "att": 13,
+                "spatt": 30,
+                "defe": 3,
+                "spdef": 23,
+                "spe": 6
+            }
+        },
+        "slot2": {
+            "uid": "15bf19b3-2a75-42e1-bb3f-91f87e3bf31f",
+            "id": "0128",
+            "name": "Tauros",
+            "level": 1,
+            "nature": "Quirky",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 31,
+                "att": 29,
+                "spatt": 9,
+                "defe": 29,
+                "spdef": 0,
+                "spe": 18
+            }
+        },
+        "slot3": {
+            "uid": "3f2edb11-8ca3-4fe1-967b-5709b9055ca2",
+            "id": "0137",
+            "name": "Porygon",
+            "level": 1,
+            "nature": "Jolly",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 16,
+                "att": 18,
+                "spatt": 6,
+                "defe": 17,
+                "spdef": 13,
+                "spe": 11
+            }
+        },
+        "slot4": {
+            "uid": "5deaef9d-9be2-47a0-961a-0f644b1b3f71",
+            "id": "0011",
+            "name": "Metapod",
+            "level": 1,
+            "nature": "Lonely",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 31,
+                "att": 31,
+                "spatt": 22,
+                "defe": 24,
+                "spdef": 9,
+                "spe": 5
+            }
+        },
+        "slot5": {
+            "uid": "c2887f18-2101-4e5a-88d2-743870dc6f1f",
+            "id": "0002",
+            "name": "Ivysaur",
+            "level": 1,
+            "nature": "Bold",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 7,
+                "att": 21,
+                "spatt": 16,
+                "defe": 25,
+                "spdef": 8,
+                "spe": 19
+            }
+        },
+        "slot6": null,
+        "box": []
+    },
+    "852629077042135060": {
+        "UID": "852629077042135060",
+        "slot1": {
+            "uid": "9a38f931-712f-4823-bc2f-68bd524e5fe2",
+            "id": "0001",
+            "name": "Bulbasaur",
+            "level": 1,
+            "nature": "Naive",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 6,
+                "att": 10,
+                "spatt": 29,
+                "defe": 26,
+                "spdef": 28,
+                "spe": 25
+            }
+        },
+        "slot2": {
+            "uid": "cd378210-2fec-40cb-b344-4a6b77e688bf",
+            "id": "0128",
+            "name": "Tauros",
+            "level": 1,
+            "nature": "Brave",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 6,
+                "att": 5,
+                "spatt": 19,
+                "defe": 24,
+                "spdef": 17,
+                "spe": 30
+            }
+        },
+        "slot3": {
+            "uid": "d329f399-8e08-4ad4-846a-5ce0a0f147a6",
+            "id": "0137",
+            "name": "Porygon",
+            "level": 1,
+            "nature": "Naughty",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 7,
+                "att": 11,
+                "spatt": 23,
+                "defe": 12,
+                "spdef": 7,
+                "spe": 9
+            }
+        },
+        "slot4": {
+            "uid": "e224a2f9-a749-4027-a1f3-b4c11aa76e6e",
+            "id": "0107",
+            "name": "Hitmonchan",
+            "level": 1,
+            "nature": "Impish",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 2,
+                "att": 26,
+                "spatt": 22,
+                "defe": 16,
+                "spdef": 7,
+                "spe": 17
+            }
+        },
+        "slot5": null,
+        "slot6": null,
+        "box": []
+    },
+    "494641458616336385": {
+        "UID": "494641458616336385",
+        "slot1": {
+            "uid": "0c37aee4-2ffb-4f40-b8f3-46d86b0a57a6",
+            "id": "0004",
+            "name": "Charmander",
+            "level": 1,
+            "nature": "Lonely",
+            "friendLevel": 50,
+            "isShiny": false,
+            "EVs": {
+                "hp": 0,
+                "att": 0,
+                "spatt": 0,
+                "defe": 0,
+                "spdef": 0,
+                "spe": 0
+            },
+            "IVs": {
+                "hp": 6,
+                "att": 22,
+                "spatt": 31,
+                "defe": 8,
+                "spdef": 21,
+                "spe": 18
+            }
+        },
+        "slot2": null,
+        "slot3": null,
+        "slot4": null,
+        "slot5": null,
+        "slot6": null,
+        "box": []
+    }
+}
