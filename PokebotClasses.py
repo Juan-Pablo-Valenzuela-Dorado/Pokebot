@@ -1,16 +1,22 @@
 import random
-class Pokemon:
+import json
+import uuid
 
-    Natures = {
+# Load Pokémon database once
+with open('kanto_pokedex.json', 'r', encoding='utf-8') as archivo:
+    BaseStats = json.load(archivo)
+
+# Natures
+Natures = {
     "Adamant": ("att", "spatt"),
-    "Bashful": (None, None),   # Neutral
+    "Bashful": (None, None),
     "Bold": ("defe", "att"),
     "Brave": ("att", "spe"),
     "Calm": ("spdef", "att"),
     "Careful": ("spdef", "spatt"),
-    "Docile": (None, None),    # Neutral
+    "Docile": (None, None),
     "Gentle": ("spdef", "defe"),
-    "Hardy": (None, None),     # Neutral
+    "Hardy": (None, None),
     "Hasty": ("spe", "defe"),
     "Impish": ("defe", "spatt"),
     "Jolly": ("spe", "spatt"),
@@ -21,103 +27,16 @@ class Pokemon:
     "Naive": ("spe", "spdef"),
     "Naughty": ("att", "spdef"),
     "Quiet": ("spatt", "spe"),
-    "Quirky": (None, None),    # Neutral
+    "Quirky": (None, None),
     "Rash": ("spatt", "spdef"),
     "Relaxed": ("defe", "spe"),
     "Sassy": ("spdef", "spe"),
-    "Serious": (None, None),   # Neutral
+    "Serious": (None, None),
     "Timid": ("spe", "att"),
-    }
-    
-    BaseStats = {
-    "395": [(84, 86, 88, 111, 101, 60), ["Torrent", "Defiant"], ["Water", "Steel"]],
-    "1713": [(66, 75, 90, 120, 85, 105), ["Sniper", "Guts"] ,["Grass","Fire"]]
+}
 
-    }
-    #395 es empoleon y el 1713 está inventado jajaja
 
-    def __init__(self, name, level, id, nature, marksOwned, isShiny, friendLevel, EVs, IVs):
-        self.name = name
-        self.level = level
-        self.id = id
-        self.nature = nature
-        self.marksOwned = marksOwned
-        self.isShiny = isShiny
-        self.friendLevel = friendLevel
-        self.EVs = EVs
-        self.IVs = IVs
-        self.hp = self.checkStat(id, level, "hp")
-        self.att = self.checkStat(id, level, "att")
-        self.defe = self.checkStat(id, level, "defe")
-        self.spatt = self.checkStat(id, level, "spatt")
-        self.spdef = self.checkStat(id, level, "spdef")
-        self.spe = self.checkStat(id, level, "spe")
-        self.ability = Pokemon.BaseStats[id][1][random.randint(0,1)]
-        self.stats = self.checkStats(id,level)
-    def bathe(self):
-        self.friendLevel += 10
-    def changeNature(self, nature):
-        self.nature = nature
-    def EVTrain(self, EV, band):
-        self.EVs.EVTrain(EV, band)
-    def Hypertrain(self, stat):
-        if stat == "gold":
-            self.IVs.Hypertrain("hp")
-            self.IVs.Hypertrain("att")
-            self.IVs.Hypertrain("spatt")
-            self.IVs.Hypertrain("defe")
-            self.IVs.Hypertrain("spdef")
-            self.IVs.Hypertrain("spe")
-        else:
-            self.IVs.Hypertrain(stat)
-    def nature_multiplier(self, stat):
-    
-        inc, dec = Pokemon.Natures[self.nature]
-        if stat == inc:
-            return 1.1
-        elif stat == dec:
-            return 0.9
-        return 1.0
-    def changeAbility(self, ability):
-        self.ability = ability
-    def checkStats(self, ID, level):
-        hp = self.checkStat(ID, level, "hp")
-        att = self.checkStat(ID, level,"att")
-        defe = self.checkStat(ID, level,"defe")
-        spatt = self.checkStat(ID, level,"spatt")
-        spdef = self.checkStat(ID, level,"spdef")
-        spe = self.checkStat(ID, level,"spe")
-
-        return {
-        "hp": int(hp),
-        "att": int(att),
-        "defe": int(defe),
-        "spatt": int(spatt),
-        "spdef": int(spdef),
-        "spe": int(spe),
-    }
-    def checkStat(self, ID, level, stat):
-        if stat == "hp":
-            bhp = Pokemon.BaseStats[ID][0][0]
-            return ((2*bhp + self.IVs.checkStat("hp") + self.EVs.checkStat("hp")//4)* level)//100 + level + 10
-        elif stat == "att":
-            batt = Pokemon.BaseStats[ID][0][1]
-            return (((2*batt + self.IVs.checkStat("att") + self.EVs.checkStat("att")//4)* level)//100 + 5) * self.nature_multiplier("att")
-        elif stat == "defe":
-            bdefe = Pokemon.BaseStats[ID][0][2]
-            return (((2*bdefe + self.IVs.checkStat("defe") + self.EVs.checkStat("defe")//4)* level)//100 + 5) * self.nature_multiplier("defe")
-        elif stat == "spatt":
-            bspatt = Pokemon.BaseStats[ID][0][3]
-            return (((2*bspatt + self.IVs.checkStat("spatt") + self.EVs.checkStat("spatt")//4)* level)//100 + 5) * self.nature_multiplier("spatt")
-        elif stat == "spdef":
-            bspdef = Pokemon.BaseStats[ID][0][4]
-            return (((2*bspdef + self.IVs.checkStat("spdef") + self.EVs.checkStat("spdef")//4)* level)//100 + 5) * self.nature_multiplier("spdef")
-        elif stat == "spe":
-            bspe = Pokemon.BaseStats[ID][0][5]
-            return (((2*bspe + self.IVs.checkStat("spe") + self.EVs.checkStat("spe")//4)* level)//100 + 5) * self.nature_multiplier("spe")
-        else:
-            print("Algo salió mal :(")
-
+# --- Helper classes ---
 class EVs:
     def __init__(self):
         self.hp = 0
@@ -126,7 +45,7 @@ class EVs:
         self.defe = 0
         self.spdef = 0
         self.spe = 0
-    
+
     def totalStats(self):
         return self.hp + self.att + self.spatt + self.defe + self.spdef + self.spe
 
@@ -134,17 +53,16 @@ class EVs:
         totalStats = self.totalStats()
         if totalStats + value > 510:
             value = 510 - totalStats
-        setattr(self, EV, getattr(self,EV) + value)
-        if getattr(self,EV) > 252:
-            setattr(self, EV, 252)
-    
-    def EVTrain(self, EV, band):
+        setattr(self, EV, min(getattr(self, EV) + value, 252))
+
+    def EVTrain(self, EV, band=False):
         if band:
             self.addEV(EV, 8)
         self.addEV(EV, 2)
 
-    def checkStat(self, EV):
-        return getattr(self, EV)
+    def checkStat(self, stat):
+        return getattr(self, stat)
+
 
 class IVs:
     def __init__(self):
@@ -154,26 +72,156 @@ class IVs:
         self.defe = random.randint(0, 31)
         self.spdef = random.randint(0, 31)
         self.spe = random.randint(0, 31)
+
     def Hypertrain(self, stat):
         setattr(self, stat, 31)
+
     def checkStat(self, stat):
         return getattr(self, stat)
 
-""""NO ACABADAS UWU"""
-class Move:
-    def __init__(self, name, pp, type, pow, attType, hrate, effects, effrate):
-        self.name = name
-        self.pp = pp
-        self.type = type
-        self.pow = pow
-        self.attType = attType
-        self.hrate = hrate #percentage
-        self.effects = effects #1 or more
-        self.effrate = effrate #percentage
+
+# --- Pokémon class ---
+class Pokemon:
+    BaseStats = BaseStats
+    Natures = Natures
+
+    def __init__(self, poke_id, name=None, level=1, friendLevel=50):
+        self.id = str(poke_id).zfill(4)  # ensure padded ID
+        if self.id not in Pokemon.BaseStats:
+            raise ValueError(f"Pokemon ID {self.id} not found in BaseStats")
+
+        data = Pokemon.BaseStats[self.id]
+        self.name = name or data["name"]
+        self.types = data["types"]
+        self.base_stats = data["base_stats"]
+        self.abilities = data["abilities"]
+        self.moveset = data.get("moveset", {})
+
+        self.level = level
+        self.nature = random.choice(list(Pokemon.Natures.keys()))
+        self.friendLevel = friendLevel
+        self.isShiny = self.genShiny()
+
+        self.EVs = EVs()
+        self.IVs = IVs()
+
+        # Stats calculation
+        self.hp = self.checkStat("hp")
+        self.att = self.checkStat("att")
+        self.defe = self.checkStat("defe")
+        self.spatt = self.checkStat("spatt")
+        self.spdef = self.checkStat("spdef")
+        self.spe = self.checkStat("spe")
+        self.ability = random.choice(self.abilities)
+        self.id = str(poke_id).zfill(4)  # species ID
+        self.uid = str(uuid.uuid4())      # unique instance ID
+
+    def genShiny(self):
+        return random.randint(1, 4096) == 4096
+
+    def nature_multiplier(self, stat):
+        inc, dec = Pokemon.Natures[self.nature]
+        if stat == inc:
+            return 1.1
+        elif stat == dec:
+            return 0.9
+        return 1.0
+
+    def checkStat(self, stat):
+        base = self.base_stats[stat]
+        if stat == "hp":
+            return ((2*base + self.IVs.checkStat("hp") + self.EVs.checkStat("hp")//4) * self.level)//100 + self.level + 10
+        else:
+            return int((((2*base + self.IVs.checkStat(stat) + self.EVs.checkStat(stat)//4) * self.level)//100 + 5) * self.nature_multiplier(stat))
+
+    def __repr__(self):
+        return f"<Pokemon {self.name} (Lvl {self.level}) | Nature={self.nature}, Shiny={self.isShiny}>"
+
+    # Optional: save/load as dict for persistence
+    def to_dict(self):
+        return {
+            "uid": self.uid,
+            "id": self.id,
+            "name": self.name,
+            "level": self.level,
+            "nature": self.nature,
+            "friendLevel": self.friendLevel,
+            "isShiny": self.isShiny,
+            "EVs": self.EVs.__dict__,
+            "IVs": self.IVs.__dict__,
+        }
+
+    @classmethod
+    def from_dict(cls, data):
+        p = cls(data["id"], name=data.get("name"), level=data.get("level",1), friendLevel=data.get("friendLevel",50))
+        p.uid = data.get("uid", str(uuid.uuid4()))
+        p.nature = data.get("nature", p.nature)
+        p.isShiny = data.get("isShiny", p.isShiny)
+        p.EVs.__dict__.update(data.get("EVs", {}))
+        p.IVs.__dict__.update(data.get("IVs", {}))
+        return p
+
+
+
+# --- Trainer class ---
+class Trainer:
+    def __init__(self, unique_id):
+        self.UID = str(unique_id)
+        self.slot1 = self.genRandomStarter()
+        self.slot2 = None
+        self.slot3 = None
+        self.slot4 = None
+        self.slot5 = None
+        self.slot6 = None
+        self.box = []
+
+    @staticmethod
+    def genRandomStarter():
+        # List of starter Pokémon IDs (padded)
+        starter_ids = ["0001", "0004", "0007"]
+        return Pokemon(random.choice(starter_ids))
+
+    def equipPokemon(self, slot, pokemon):
+        setattr(self, slot, pokemon)
+
+    # Persistence helpers
+    def to_dict(self):
+        return {
+            "UID": self.UID,
+            "slot1": self.slot1.to_dict() if self.slot1 else None,
+            "slot2": self.slot2.to_dict() if self.slot2 else None,
+            "slot3": self.slot3.to_dict() if self.slot3 else None,
+            "slot4": self.slot4.to_dict() if self.slot4 else None,
+            "slot5": self.slot5.to_dict() if self.slot5 else None,
+            "slot6": self.slot6.to_dict() if self.slot6 else None,
+            "box": [p.to_dict() for p in self.box],
+        }
+
+    @classmethod
+    def from_dict(cls, data):
+        t = cls(data["UID"])
+        for i in range(1,7):
+            slot_name = f"slot{i}"
+            if data.get(slot_name):
+                setattr(t, slot_name, Pokemon.from_dict(data[slot_name]))
+        t.box = [Pokemon.from_dict(p) for p in data.get("box",[])]
+        return t
+
     
-class Marks:
-    def __init__(self, champion, gourmet, friend, small):
-        self.champion = champion
-        self.gourmet = gourmet
-        self.friend = friend
-        self.small = small
+    def slot_list(self):
+        """Return a list of all Pokémon in slots 1-6 (ignores empty slots)."""
+        return [getattr(self, f"slot{i}") for i in range(1, 7) if getattr(self, f"slot{i}")]
+
+    def replace_pokemon(self, old_uid, new_pokemon):
+        """Replace a Pokémon by UID in slots or box."""
+        # Check slots
+        for i in range(1, 7):
+            slot = getattr(self, f"slot{i}")
+            if slot and slot.uid == old_uid:
+                setattr(self, f"slot{i}", new_pokemon)
+                return
+        # Check box
+        for i, p in enumerate(self.box):
+            if p.uid == old_uid:
+                self.box[i] = new_pokemon
+                return
